@@ -7,11 +7,11 @@ require "rawnet_admin_froala/version"
 Gem::Specification.new do |s|
   s.name        = "rawnet_admin_froala"
   s.version     = RawnetAdminFroala::VERSION
-  s.authors     = ["TODO: Your name"]
-  s.email       = ["TODO: Your email"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of RawnetAdminFroala."
-  s.description = "TODO: Description of RawnetAdminFroala."
+  s.authors     = ["Tom Beynon"]
+  s.email       = ["tbeynon@rawnet.com"]
+  s.homepage    = "http://rawnet.com"
+  s.summary     = "Froala integration for RawnetAdmin"
+  s.description = "Froala integration for RawnetAdmin"
   s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
