@@ -45,13 +45,17 @@ Without any arguments this will intialize an editor instance on `.froala-basic` 
 
 You can optionally pass a specific element or custom options to each function
 
-Setting liscense
+Setting license
 ----------------
 Froala will show an 'Unlicensed version' warning until you set a license key. Use the following method to set your license key
 
 ```
 RawnetAdmin.froala.setLicense('abcd123');
 ```
+
+You can also pass the license when you initialize the editor. See the [documentation](https://www.froala.com/settings/license_keys).
+
+*Note:* You must set the license key before you initialize an editor.
 
 Roadmap
 --------
