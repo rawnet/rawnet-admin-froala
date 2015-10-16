@@ -29,6 +29,10 @@ RawnetAdmin.froala = function() {
     el.editable(options);
   }
 
+  function setLicense(key){
+    $.Editable.DEFAULTS.key = key;
+  }
+
   function getParams() {
     var csrf_token = $('meta[name=csrf-token]').attr('content');
     var csrf_param = $('meta[name=csrf-param]').attr('content');
@@ -46,6 +50,7 @@ RawnetAdmin.froala = function() {
 
   return {
     init: init,
-    basic: basic
+    basic: basic,
+    setLicense: setLicense
   };
 }();

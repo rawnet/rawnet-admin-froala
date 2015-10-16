@@ -45,6 +45,14 @@ Without any arguments this will intialize an editor instance on `.froala-basic` 
 
 You can optionally pass a specific element or custom options to each function
 
+Setting liscense
+----------------
+Froala will show an 'Unlicensed version' warning until you set a license key. Use the following method to set your license key
+
+```
+RawnetAdmin.froala.setLicense('abcd123');
+```
+
 Roadmap
 --------
 Include modules/concerns for file upload model/controller, currently no support
